@@ -18,7 +18,9 @@ export const allMoviesCrud = id => async(dispatch) => {
           })
   })
   if (!allMovies.empty) {
-    latesDoc1 = allMovies.docs[allMovies.docs.length - 1]
+
+      latesDoc1 = allMovies.docs[allMovies.docs.length - 1]
+    
 }
   return dispatch({
     type: FETCH_ALL_MOVIE_CRUD,

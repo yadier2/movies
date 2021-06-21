@@ -9,15 +9,11 @@ import { TableForm } from './TableForm'
 
 export const Admin = () => {
   const dispatch = useDispatch();
-const [page, setPage] = useState(1)
+
   const userNameFromData = useSelector((state) => state.auth.name);
 
   const [dataToEdit, setDataToEdit] = useState(null)
-  useEffect(() => {
-    dispatch(allMoviesCrud());
-
-  }, [page])
-
+ 
   const handleLogout = () => {
     dispatch(startLogout());
   };
@@ -72,7 +68,7 @@ const [page, setPage] = useState(1)
           />
         </div>
         <button className="btn btn-info m-4" onClick={
-          () => setPage(page+1)
+          () =>  dispatch(allMoviesCrud())
         }>Siguiente</button>
       </div>
     </div>       
