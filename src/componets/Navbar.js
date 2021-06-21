@@ -15,13 +15,13 @@ export const Navbar = ({isLoggedIn}) => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/home">Todas</Link>
+          <Link className="nav-link active" aria-current="page" to="/">Todas</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="/home">Más valoradas</Link>
+          <Link className="nav-link active" to="/">Más valoradas</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="/home">Menos valoradas</Link>
+          <Link className="nav-link active" to="/">Menos valoradas</Link>
         </li>
       <li className="nav-item">
         
