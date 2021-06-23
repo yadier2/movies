@@ -1,44 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# 💎  Block Master
+ Disfruta de las mejores películas.
 
-## Available Scripts
+Puedes acceder a la aplicacion desde este enlace:
+[https://yadier2.github.io/calculadora/](https://yadier2.github.io/calculadora/)
 
-In the project directory, you can run:
+## Descripcion
+Block Master es la plataforma que te permite rentar y disfrutar de una buena película.
 
-### `yarn start`
+Elige una película y a disfrutar.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requisitos
+Debes de tener instalado NPM y Node.js para su correcta ejecución.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🔥 Instalación
+1. Instalar las dependencias necesarias a través  del comando (npm install)<br/>
+2. Ejecutar el proyecto a través  del comando (npm run start)
 
-### `yarn test`
+## :collision: Soporte
+Si llegas a encontrar algún bug, por favor siéntete libre de darnos detalles de este en nuestra pestaña de Issues, agradeceremos si es agregada una descripción de las acciones que se estaban realizando al momento que surgió el error.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔍 Vistas 
 
-### `yarn build`
+### 💻 Desktop
+![Desktop](https://i.ibb.co/r336pHX/movie1.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📱 Mobile
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![mobile](https://i.ibb.co/5WYBJyj/movie2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 🌟 Autor
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Yadier Caicedo Martinez [https://github.com/yadier2/](https://github.com/yadier2/)
