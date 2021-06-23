@@ -93,7 +93,7 @@ export const FormCrud = ({ createData, updateData, dataToEdit, setDataToEdit }) 
   
     const handleSubmit = async (e) => {
         e.preventDefault()
-        if (!form.title.trim()) {
+        if (!form.title) {
             alert('Datos incompletos')
             return;
         }

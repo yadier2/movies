@@ -27,7 +27,7 @@ export const Admin = () => {
   }
 
   const deleteData = (id) => {
-    let isDelete = window.confirm('Estás seguro de eliminar la pelicula?')
+    let isDelete = window.confirm('Estás seguro de eliminar la pelicula?',id)
     if (isDelete) {
       dispatch(startDeleting(id))
     } else {
@@ -67,9 +67,16 @@ export const Admin = () => {
             deleteData={deleteData}
           />
         </div>
-        <button className="btn btn-info m-4" onClick={
-          () =>  dispatch(allMoviesCrud())
-        }>Siguiente</button>
+      
+<div class="">
+<button class="btn btn-primary m-2" type="button"
+   onClick={ () =>  dispatch(allMoviesCrud('reset')) }>Reset</button>
+
+
+  <button class="btn btn-primary" type="button"
+   onClick={ () =>  dispatch(allMoviesCrud('next')) }>Siguiente</button>
+</div>
+
       </div>
     </div>       
   );
