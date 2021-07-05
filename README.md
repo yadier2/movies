@@ -2,7 +2,7 @@
  Disfruta de las mejores películas.
 
 Puedes acceder a la aplicacion desde este enlace:
-[https://yadier2.github.io/calculadora/](https://yadier2.github.io/calculadora/)
+[https://yadier2.github.io/movies/](https://yadier2.github.io/movies/)
 
 ## Descripcion
 Block Master es la plataforma que te permite rentar y disfrutar de una buena película.
